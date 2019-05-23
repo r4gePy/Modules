@@ -1,39 +1,36 @@
 KEYBOARD_START = {
-    "one_time": False,
-    "buttons": [
-        [{
-                "action": {
-                    "type": "text",
-                    "payload": "{\"button\": \"1\"}",
-                    "label": "Red"
-                },
-                "color": "negative"
+    'one_time': False,
+    'buttons': [[{
+        'action': {
+            'type': 'text',
+            'payload': "{\"button\": \"1\"}",
+            'label': 'Урок',
+        },
+        'color': 'positive'
+    },
+        {
+            'action': {
+                'type': 'text',
+                'payload': "{\"button\": \"2\"}",
+                'label': 'Расписание'
             },
-            {
-                "action": {
-                    "type": "text",
-                    "payload": "{\"button\": \"2\"}",
-                    "label": "Green"
-                },
-                "color": "positive"
-            }
-        ],
-        [{
-                "action": {
-                    "type": "text",
-                    "payload": "{\"button\": \"3\"}",
-                    "label": "White"
-                },
-                "color": "default"
+            'color': 'primary'
+        },
+        {
+            'action': {
+                'type': 'text',
+                'payload': "{\"button\": \"3\"}",
+                'label': 'Комманды',
             },
-            {
-                "action": {
-                    "type": "text",
-                    "payload": "{\"button\": \"4\"}",
-                    "label": "Blue"
-                },
-                "color": "primary"
-            }
-        ]
-    ]
+            'color': 'negative'
+        },
+        {
+            'action': {
+                'type': 'text',
+                'payload': "{\"button\": \"4\"}",
+                'label': 'Default',
+            },
+            'color': 'default'
+        }
+    ]]
 }
